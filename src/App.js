@@ -46,7 +46,7 @@ export default class App extends Component {
         <Route exact path="/sports" element={<Holder progress={this.setprogress} key="sports" country="in" category="sports" total={10} updatevalue={this.updatevalue} api={apikey}/>}/>
         <Route exact path="/technology" element={<Holder progress={this.setprogress} key="technology" country="in" category="technology" total={10} updatevalue={this.updatevalue} api={apikey}/>}/>
         <Route exact path='/description' element={<Description/>}/>
-        <Route exact path='/about' element={<h3>This App is made by yours truely <strong>Aditya Metkar</strong> :D</h3>}/>
+        <Route exact path='/about' element={<h3  style={{marginTop:"90px"}}>This App is made by yours truely <strong>Aditya Metkar</strong> :D</h3>}/>
       </Routes>
       </>
       </Router>
