@@ -2,6 +2,11 @@
 
 This Project was created with [Create React App](https://github.com/facebook/create-react-app) and [Bootstrap CSS](https://getbootstrap.com/) in combination with the [NewsAPI](https://newsapi.org/) plugin to display the latest information and Events
 
+
+
+https://github.com/AdityaMetkar/NEWS_Monkey/assets/133694021/4e8d22f6-4124-47a4-bce5-65dee51e0782
+
+
 # Usage
 
 ### Pre-Requisites
