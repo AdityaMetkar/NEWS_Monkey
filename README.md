@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# NEWS Monkey - The online news streaming Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Project was created with [Create React App](https://github.com/facebook/create-react-app) and [Bootstrap CSS](https://getbootstrap.com/) in combination with the [NewsAPI](https://newsapi.org/) plugin to display the latest information and Events
 
-## Available Scripts
+# Usage
 
-In the project directory, you can run:
+### Pre-Requisites
+You must have [Node.js](https://nodejs.org/en/download) installed on your computer to run the React App.\
+Then follow the given steps.
 
-### `npm start`
+1) Clone the repository on your local desktop using `git clone https://github.com/AdityaMetkar/NEWS_Monkey.git`\
+   or directly download the `.zip` folder
+2) After the repository is cloned, navigate to the project directory using the following command: `cd NEWS_Monkey`
+3) Once you’re inside the project directory, run the following command to install the dependencies required for the project: `npm install`.\
+    In case of issues shown after the npm install, run the below to automatically fix the issues:\
+    `npm audit fix`
+4) Next step is to get your own personal APIKey from [NewsAPI](https://newsapi.org/) by signing up. Your personal API Key will be visible in your [Profile](https://newsapi.org/account)
+5) Once you have secured your API Key navigate to src/App.js and paste it at directed location inside the double quotes
+   ![image](https://github.com/AdityaMetkar/NEWS_Monkey/assets/133694021/ee302e8e-c375-48ad-888c-a5e233cc538c)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### The setup is Done!!
+Now we just need to run the project on local server using `npm start` or `npm run start`.\
+This command will start a local development server and run the React project in your web browser automatically. You can access the project by navigating to http://localhost:3000 in your web browser.
 
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
