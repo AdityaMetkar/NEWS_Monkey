@@ -22,11 +22,12 @@ export default class App extends Component {
 
   render() {
 
-    // Get your free API key from NewsAPI.com and put it below
+    // Get your free API key from NewsAPI.com and put it below for local use
 
-    let apikey=" API_KEY " // <---- Enter Your API Key HERE
+    // let apikey=" API_KEY " // <---- Enter Your API Key HERE
 
-
+    // for hosting
+    let apikey = process.env.REACT_APP_API;
 
 
     return (
